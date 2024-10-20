@@ -1,0 +1,7 @@
+def print_numbers(n):
+    #base condition
+    if n>0:
+        print(n)
+        print_numbers(n-1)
+
+print_numbers(5)
